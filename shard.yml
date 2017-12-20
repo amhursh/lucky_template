@@ -1,0 +1,21 @@
+name: canvass_coord_api
+version: 0.1.0
+
+authors:
+  - Aaron Hursh <amhursh@gmail.com>
+
+targets:
+  canvass_coord_api:
+    main: src/canvass_coord_api.cr
+
+crystal: 0.23.1
+
+license: MIT
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.6.1
+  lucky_migrator:
+    github: luckyframework/lucky_migrator
+    version: ~> 0.3.0
